@@ -4,14 +4,12 @@
   "description": "SoundTouch API using TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "keywords": [
-    "soundtouch"
-  ],
+  "keywords": ["soundtouch"],
   "repository": {
     "type": "git",
-    "url": "git://github.com/bbriatte/soundtouch-api.git"
+    "url": "git://github.com/bossoq/soundtouch-api.git"
   },
-  "author": "bbriatte",
+  "author": "bossoq",
   "license": "BSD",
   "dependencies": {
     "axios": "^0.26.1",

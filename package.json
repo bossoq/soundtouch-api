@@ -9,6 +9,9 @@
     "type": "git",
     "url": "git://github.com/bossoq/soundtouch-api.git"
   },
+  "scripts": {
+    "postinstall": "tsc --outDir ./dist"
+  },
   "author": "bossoq",
   "license": "BSD",
   "dependencies": {

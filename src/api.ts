@@ -19,7 +19,7 @@ import {promisify} from 'util';
 import {ContentItem, contentItemToElement} from './content-item';
 import axios, {AxiosInstance} from "axios";
 
-const parseXML = promisify((xml: convertableToString, options: OptionsV2, cb: (err: Error, res: any) => void) => parseString(xml, options, cb));
+const parseXML = promisify((xml: convertableToString, options: OptionsV2, cb: (err: Error | null, res: any) => void) => parseString(xml, options, cb));
 
 export class API {
 
